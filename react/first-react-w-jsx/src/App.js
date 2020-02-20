@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 
-import HelloWorld from './components/HelloWorld';
 import PersonCard from './components/PersonCard';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   return (
