@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.centered {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.content {
+  width: 80%;
+  margin: 25px;
+}
