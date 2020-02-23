@@ -1,0 +1,31 @@
+.content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+}
+
+.fields {
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 15px;
+    display: block;
+    margin: 5px;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+}
+
+.displays {
+    width: 50%;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
