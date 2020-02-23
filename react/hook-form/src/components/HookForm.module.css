@@ -9,6 +9,12 @@
     text-align: center;
 }
 
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: smaller;
+}
+
 .fields {
     padding: 10px;
     background-color: #ccc;
