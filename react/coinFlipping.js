@@ -5,16 +5,21 @@ function tossCoin() {
 const getFiveHeads = new Promise( (resolve, reject) => {
     let start = Date.now();
     let headsCount = 0;
+    let counter = 0;
     while(headsCount < 5) {
+        if (counter == 100) {
+            reject('You tossed the coin 100 times with no positive results!');
+        }
         let result = tossCoin();
+        ++counter;
         console.log(`The coin is... ${result}`);
         if(result === "heads") {
-            headsCount++;
+            ++headsCount;
         } else {
             headsCount = 0;
         }
     }
-    resolve(`It took ${Date.now() - start} milliseconds to flip five "heads"`);
+    return resolve(`It took ${Date.now() - start} milliseconds to flip five "heads"`);
 });
 
 getFiveHeads
