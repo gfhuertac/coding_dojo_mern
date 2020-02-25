@@ -1,0 +1,11 @@
+body {
+  margin: 50px;
+}
+
+.App {
+  text-align: center;
+}
+
+.form-control {
+  display: inline-block !important;
+}
